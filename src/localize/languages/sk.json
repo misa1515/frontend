@@ -1,0 +1,139 @@
+{
+  "common": {
+    "add": "pridať",
+    "appdaemon": "AppDaemon",
+    "cancel": "Zrušiť",
+    "close": "Zatvoriť",
+    "download": "Stiahnuť",
+    "downloaded": "Stiahnuté",
+    "ignore": "Ignorovať",
+    "integration_plural": "Integrácie",
+    "integration": "Integrácia",
+    "lovelace": "Lovelace",
+    "netdaemon": "NetDaemon",
+    "new": "Nový",
+    "plugin": "Lovelace",
+    "python_script": "Python Script",
+    "reload": "Znovu načítať",
+    "remove": "Odobrať",
+    "repositories": "Úložiská",
+    "repository": "Úložisko",
+    "show": "Zobraziť",
+    "theme": "Téma",
+    "update": "Aktualizácia",
+    "updates": "Aktualizácie",
+    "yes": "Áno"
+  },
+  "column": {
+    "name": "Názov úložiska",
+    "downloads": "Stiahnutí",
+    "stars": "Hodnotenie",
+    "installed_version": "Stiahnutá verzia",
+    "available_version": "Dostupná verzia",
+    "status": "Status",
+    "category": "Kategória",
+    "last_updated": "Aktualizované"
+  },
+  "confirm": {
+    "home_assistant_version_not_correct": "Beží na Home Assistant verzii '{haversion}', ale toto úložisko potrebuje minimálne verziu '{minversion}' nainštalovať."
+  },
+  "my": {
+    "not_supported": "Toto presmerovanie nie je podporované. Pozrite si {link}, kde nájdete podporované presmerovania a verziu, v ktorej boli zavedené.",
+    "documentation": "dokumentácia",
+    "faq_link": "Moje Home Assistant FAQ",
+    "error": "Vyskytla sa neznáma chyba",
+    "repository_not_found": "Úložisko {repository} nenájdené",
+    "add_repository_title": "Pridať vlastné úložisko",
+    "add_repository_description": "Pridá vlastné úložisko '{repository}' sledované verziou HACS, chcete to pridať?"
+  },
+  "dialog_about": {
+    "integration_version": "Verzia integrácie",
+    "frontend_version": "Frontend verszia",
+    "downloaded_repositories": "Stiahnuté úložiská",
+    "useful_links": "Užitočné odkazy"
+  },
+  "dialog_add_repo": {
+    "title": "Pridať úložisko",
+    "no_match": "Nenašli sa žiadne úložiská vyhovujúce vášmu filtru",
+    "sort_by": "Zoradiť podľa",
+    "sort_by_values": {
+      "stars": "Hodnotenie",
+      "last_updated": "Naposledy aktualizované",
+      "name": "Názvu"
+    }
+  },
+  "dialog_custom_repositories": {
+    "title": "Vlastné úložiská",
+    "url_placeholder": "Pridať URL vlastného úložiska",
+    "category": "Kategória",
+    "no_repository": "Chýba úložisko",
+    "no_category": "Chýba kategória"
+  },
+  "dialog_download": {
+    "type": "Typ",
+    "url": "URL",
+    "select_version": "Zvoliť verziu",
+    "show_beta": "Zobraziť beta verzie",
+    "restart": "Pamätajte, že pred zmenami integrácií musíte reštartovať Home Assistant (custom_components) na aplikovanie.",
+    "note_downloaded": "Po stiahnutí sa to bude nachádzať v {location}",
+    "lovelace_instruction": "Po dokončení sťahovania, keďže nepoužívate Lovelace v režime úložiska, musíte manuálne pridať zdroj s týmito nastaveniami:"
+  },
+  "dialog_info": {
+    "version_installed": "Stiahnutá verzia",
+    "open_issues": "Otvorené problémy",
+    "stars": "Hodnotenie",
+    "downloads": "Stiahnutí",
+    "author": "Autora",
+    "no_info": "Vývojár neposkytol žiadne ďalšie informácie o tomto úložisku",
+    "open_repo": "Otvoriť úložisko",
+    "download": "Stiahnite si toto úložisko pomocou HACS"
+  },
+  "dialog_update": {
+    "title": "Čakajúca aktualizácia",
+    "downloaded_version": "Stiahnutá verzia",
+    "available_version": "Dostupná verzia",
+    "changelog": "Denník zmien",
+    "releasenotes": "Poznámky k vydaniu pre {release}",
+    "message": "Nová verzia pre {name} je dostupná",
+    "no_info": "Autor neposkytol žiadne informácie k tomuto vydaniu"
+  },
+  "repository_card": {
+    "dismiss": "dismiss",
+    "information": "Informácia",
+    "new_repository": "Nové úložisko",
+    "not_loaded": "Nenačítané",
+    "open_issue": "Otvorený problém",
+    "open_source": "Open source",
+    "pending_restart": "Čakajúci reštart",
+    "pending_update": "Čakajúca aktualizácia",
+    "redownload": "Znovu stiahnuť",
+    "report": "Žiadosť o odstránenie",
+    "update_information": "Aktualizácia informácií"
+  },
+  "repository_status": {
+    "pending-restart": "Čakajúci reštart",
+    "pending-upgrade": "Čakajúca aktualizácia"
+  },
+  "menu": {
+    "about": "About HACS",
+    "custom_repositories": "Voiteľné úložiská",
+    "open_issue": "Otvorený problém",
+    "dismiss": "Zrušiť nové úložiská",
+    "documentation": "Dokumentácia"
+  },
+  "dialog": {
+    "reload": {
+      "description": "Ak chcete použiť aktualizované zdroje, musíte znova načítať prehliadač.",
+      "confirm": "Chcete to urobiť teraz?"
+    },
+    "remove": {
+      "title": "Odstrániť",
+      "message": "Chcete skutočné odstrániť {name}?"
+    },
+    "configured": {
+      "title": "Integrácia je nakonfigurovaná",
+      "message": "{name} konfigurovaná alebo ignorovaná, pred odstránením z HACS musíte vymazať jeho konfiguráciu",
+      "confirm": "Prejdite na integrácie"
+    }
+  }
+}
